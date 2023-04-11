@@ -9225,9 +9225,9 @@ a:hover {
 }
 
 .metismenu .g_heading {
-    font-size: 11px;
-    text-transform: uppercase;
-    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: lightgray;
     padding-left: 0
 }
 
@@ -9299,7 +9299,7 @@ a:hover {
 }
 
 .metismenu ul a {
-    color: #4D5052;
+    color: #fff;
     font-size: 14px;
     padding: 5px 15px 5px 30px;
     position: relative
@@ -9308,7 +9308,7 @@ a:hover {
 .metismenu ul a::before {
     font-size: 14px;
     font-family: 'feather' !important;
-    content: "\e999";
+    /* content: "\e999"; */
     position: absolute;
     left: 1px
 }
@@ -9423,13 +9423,13 @@ a:hover {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     width: 280px;
-    background-color: #222;
+    background-color: #283041 !important;
     border-right: 1px solid #E6E9ED;
     left: 0;
     overflow-y: auto;
     position: fixed;
     top: 0;
-    padding: 20px 20px 100px 20px; /*top right bottom left*/
+    padding: 20px 20px 100px 30px; /*top right bottom left*/
 }
 
 @media screen and (max-width: 1200px) {
