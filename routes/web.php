@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[AppController::class, 'index']);
+Route::get('/password-reset-notification', function () {
+    return view('notification.password-request');
+})->name('password.reset.notification');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

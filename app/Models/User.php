@@ -41,4 +41,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    protected static function boot()
+    {
+        parent::boot();
+
+        static::creating(function($model){
+            if (self::count() === 0) { // check if the user table is empty
+                $model->user_type = 1; // set the user_type value to 1
+            }
+        });
+    }
 }

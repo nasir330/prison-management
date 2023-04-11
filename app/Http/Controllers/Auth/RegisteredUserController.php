@@ -20,6 +20,10 @@ class RegisteredUserController extends Controller
      */
     public function create(): View
     {
+        if (\App\Models\User::count() > 0) {
+            session()->flash('error','You are not authorized for this action..!!');
+            return view('auth.login');
+        }      
         return view('auth.register');
     }
 

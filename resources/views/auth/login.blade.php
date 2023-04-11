@@ -8,8 +8,13 @@
         </div>
         @endif
         @if(session()->has('error'))
-        <div id="successMessage" class="text-center text-danger p-1">
+        <div style="color:red;" id="errorMsg" class="text-center p-1">
             {{session('error')}}
+            <script>
+        setTimeout(function() {
+            window.location.href = '{{ route('login') }}'; // redirect to the login page after 2 seconds
+        }, 1000);
+    </script>
         </div>
         @endif
         <x-input-error :messages="$errors->get('email')" style="list-style:none;" class="text-danger mt-2" />
@@ -40,7 +45,7 @@
                 </div>
         </form>
         <div class="row text-right mt-3">
-        <a href="{{route('register')}}" > <strong>Forgot password ?</strong> </a>
+        <a href="{{route('password.request')}}" > <strong>Forgot password ?</strong> </a>
         </div>
         <!-- Login section end -->
     </div>
