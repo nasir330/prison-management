@@ -2,7 +2,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Customers</h3>
+                <h3 class="card-title">Staf's</h3>
             </div>
             <div class="card-body">
                 <h5 class="number mb-0 font-32 counter">31</h5>
@@ -13,7 +13,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Quotations</h3>
+                <h3 class="card-title">Inmate's</h3>
             </div>
             <div class="card-body">
                 <h5 class="number mb-0 font-32 counter">245</h5>
@@ -24,7 +24,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Invoices</h3>
+                <h3 class="card-title">Visitor's</h3>
             </div>
             <div class="card-body">
                 <h5 class="number mb-0 font-32 counter">17</h5>
@@ -35,7 +35,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Certificates</h3>
+                <h3 class="card-title">Inventory's</h3>
             </div>
             <div class="card-body">
                 <h5 class="number mb-0 font-32 counter">12</h5>
@@ -46,7 +46,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Maintenance</h3>
+                <h3 class="card-title">Report</h3>
             </div>
             <div class="card-body">
                 <h5 class="number mb-0 font-32 counter">19</h5>
@@ -57,7 +57,7 @@
     <div class="col-xl-2 col-lg-4 col-md-6">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Boiler Service</h3>
+                <h3 class="card-title">Settings</h3>
             </div>
             <div class="card-body">
                 <h5 class="number mb-0 font-32 counter">284</h5>

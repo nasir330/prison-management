@@ -27,10 +27,10 @@
                     <div class="row clearfix row-deck">
 
                         <!-- current overview start -->
-                        @include('templates.sales_overview.current_overview')
+                        <!-- @include('templates.sales_overview.current_overview') -->
                         <!-- current overview end -->
                         <!-- statistics start -->
-                        @include('templates.sales_overview.overview_statistics')
+                        <!-- @include('templates.sales_overview.overview_statistics') -->
                         <!-- statistics end -->
                     </div>
                     <!-- sales overview end -->                   

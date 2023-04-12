@@ -30,6 +30,10 @@ a{
     background-color: #00A9BD;
     border-color: #00A9BD
  }
+ #boxitem .card-header{
+   background-color: #283041;
+   color:#fff;
+ }
  
 /* Mobile device */
 @media (max-width:600px) {
