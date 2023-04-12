@@ -27,7 +27,7 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="login.html">
+                        <a href="{{route('stafs.list')}}">
                             <i class="fa-solid fa-user-group"></i>
                             Staf's List
                         </a>

@@ -25,13 +25,21 @@
                     <!-- box menu end -->
                     <!-- sales overview start -->
                     <div class="row clearfix row-deck">
-
-                        <!-- current overview start -->
-                        <!-- @include('templates.sales_overview.current_overview') -->
-                        <!-- current overview end -->
-                        <!-- statistics start -->
-                        <!-- @include('templates.sales_overview.overview_statistics') -->
-                        <!-- statistics end -->
+                        @foreach($stafs as $key=> $staf)
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3 class="card-title">{{$staf->name}}</h3>
+                                </div>
+                                <div class="card-body text-center">
+                                    <div style="width:100px; border-radius:50%; border:1px solid #222; margin:auto 25%;">
+                                    <img class="p-2" src="{{asset('Assets/img/male.png')}}" alt="">                                   
+                                    </div>
+                                    <span>Admin</span>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach                       
                     </div>
                     <!-- sales overview end -->
 
