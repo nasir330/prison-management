@@ -15,6 +15,8 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- <link rel="stylesheet" href="{{asset('Assets/css/bootstrap.min.css')}}"> -->
+
     <!-- Google chart CDN -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 

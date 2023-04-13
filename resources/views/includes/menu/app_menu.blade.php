@@ -1,7 +1,7 @@
 <div id="left-sidebar" class="sidebar">
     <div class="row">
         <div class="col-auto text-white">
-           <h4>Name or Logo</h4>
+           <h4>{{Auth::user()->name}}</h4>
         </div>
         <!-- <div class="col-auto d-flex justify-content-end">
             <a href="javascript:void(0)" class="menu_option float-right">
@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="login.html">
+                    <a href="{{route('add.staf')}}">
                             <i class="fa-solid fa-user-check"></i>
 
                             Add New

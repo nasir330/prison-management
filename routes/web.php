@@ -28,6 +28,8 @@ Route::get('/dashboard', function () {
 Route::middleware('auth')->group(function () {
     //Stafs routes
     Route::get('/stafs-list', [StafsController::class, 'index'])->name('stafs.list');
+    Route::get('/add-staf', [StafsController::class, 'create'])->name('add.staf');
+    Route::post('/add-staf', [StafsController::class, 'store'])->name('add.staf');
 
 
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

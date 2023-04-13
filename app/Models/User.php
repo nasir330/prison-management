@@ -18,9 +18,11 @@ class User extends Authenticatable
      * @var array<int, string>
      */
     protected $fillable = [
+        'user_type',
         'name',
         'email',
         'password',
+        'photo',
     ];
 
     /**
@@ -41,6 +43,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    //user type table relation
+    public function usertype() {
+        return $this->hasOne(UserType::class, 'id', 'user_type');
+    }
+    //Staffs table relation
+    public function staffs() {
+        return $this->hasOne(Staffs::class, 'user_id', 'id');
+    }
 
     protected static function boot()
     {
